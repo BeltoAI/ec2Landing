@@ -255,7 +255,7 @@ class Database {
             // If email does not exist, proceed with adding the record
             const query = 'INSERT INTO outreach (firstName, lastName, email, useCase, ideas) VALUES (?, ?, ?, ?, ?)';
             const [result] = await pool.execute(query, [firstName, lastName, email, useCase, ideas]);
-            console.log('Record added successfully:', result);
+            console.log('Record added successfully');
             return result;
         } catch (error) {
             console.error('Failed to add record:', error.message);
@@ -268,7 +268,7 @@ class Database {
         try {
             const query = 'INSERT INTO contact (name, email, number, message, created_at) VALUES (?, ?, ?, ?, NOW())';
             const [result] = await pool.execute(query, [name, email, number, message]);
-            console.log('Contact record added successfully:', result);
+            console.log('Contact record added successfully');
             return result;
         } catch (error) {
             console.error('Failed to add contact record:', error.message);
@@ -302,7 +302,7 @@ class Mail {
 
         try {
             const info = await transporter.sendMail(mailOptions);
-            console.log('Email sent: ' + info.response);
+//            console.log('Email sent: ' + info.response);
             return { success: true, info: info.response };
         } catch (error) {
             if (error.response && error.response.statusCode === 550) {
@@ -335,7 +335,7 @@ class Mail {
 
         try {
             const info = await transporter.sendMail(mailOptions);
-            console.log('Email sent: ' + info.response);
+//            console.log('Email sent: ' + info.response);
             return { success: true, info: info.response };
         } catch (error) {
             if (error.response && error.response.statusCode === 550) {
@@ -370,7 +370,7 @@ class Mail {
 
         try {
             const info = await transporter.sendMail(mailOptions);
-            console.log('Email sent: ' + info.response);
+      //      console.log('Email sent: ' + info.response);
         } catch (error) {
             console.error('Error sending email: ' + error);
         }
