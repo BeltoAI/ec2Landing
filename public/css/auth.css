@@ -1,0 +1,213 @@
+body {
+  background-color: var(--body) !important;
+}
+:root {
+  --body: #000;
+  --text: #888888;
+  --text-light: #e5e5e5;
+  --primary: #ffc201;
+  --border: #bbbbbb;
+  --white: #fff;
+  --padding: 16px 24px;
+  --line-height: 24px;
+}
+a {
+  text-decoration: none !important;
+}
+p {
+  margin: 0 !important;
+}
+
+.form_container {
+  background-color: var(--body);
+  min-height: 100vh;
+  color: var(--white);
+  width: 370px;
+  margin: 0 auto;
+}
+
+.form_container .logo {
+  text-align: center;
+  margin: 50px auto;
+  width: 100%;
+}
+
+.form_container .logo img{
+  width: 150px;
+}
+.form_container h2 {
+  text-align: center;
+}
+
+.input-group {
+  width: 370px;
+  position: relative;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin: 22px auto;
+}
+.input-group input {
+  padding: var(--padding);
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  color: var(--text);
+  font-size: 16px;
+  line-height: var(--line-height);
+}
+
+.input-group:hover,
+.input-group:focus-within {
+  border-color: var(--primary);
+}
+
+.input-group input:focus,
+.input-group:hover input {
+  color: var(--text-light);
+}
+
+.input-group input:focus-visible {
+  outline: none;
+}
+
+.input-group label {
+  position: absolute;
+  background-color: transparent;
+  padding: var(--padding);
+  line-height: var(--line-height);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  color: var(--text-light);
+  cursor: text;
+  transition: 0.4s;
+}
+
+.input-group:hover label {
+  color: var(--primary);
+}
+
+.input-group:focus-within label,
+.input-group input:not(:placeholder-shown) ~ label {
+  padding: 0px 8px;
+  background-color: var(--body);
+  top: -12px;
+  left: 16px;
+  bottom: auto;
+  color: var(--primary);
+  /* display: block; */
+}
+
+.edit {
+  display: none;
+}
+.edit.active,
+.input-group .eyes {
+  position: absolute;
+  right: 16px;
+  top: 14px;
+  cursor: pointer;
+  color: var(--primary);
+}
+.input-group .eyes .open,
+.input-group .eyes .hide {
+  display: none;
+}
+
+.input-group .eyes .open.active,
+.input-group .eyes .hide.active {
+  display: block;
+}
+.login_link a,
+.forgot_pass a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login_link {
+  text-align: center !important;
+}
+
+.or {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.or .line {
+  width: 44%;
+  height: 1px;
+  background-color: var(--text);
+}
+.continue button {
+  width: 100%;
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: 500;
+  margin-bottom: 13px;
+  color: var(--text);
+}
+
+.continue button.active {
+  background-color: var(--primary);
+  color: var(--white);
+}
+.auth_options button {
+  background: transparent;
+  border: 1px solid var(--border);
+  padding: 15px;
+  border-radius: 10px;
+  color: var(--white);
+  width: 100%;
+  text-align: left;
+  margin: 10px 0;
+  font-weight: 500;
+}
+.auth_options button img {
+  margin-right: 10px;
+}
+.strong_pass {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid var(--text);
+  margin-bottom: 20px;
+}
+.terms {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  margin: 220px 0 20px 0;
+}
+.terms a {
+  color: var(--primary);
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.terms_container {
+  text-align: center;
+  color: var(--white);
+}
+.terms_container img {
+  padding: 50px 0;
+}
+
+.home {
+  color: var(--primary);
+  text-align: center;
+  display: block;
+}
+
+.check_email {
+  display: none;
+}
+.check_email.active {
+  display: none;
+}
+.resend_email {
+  width: 100%;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--white) !important;
+}

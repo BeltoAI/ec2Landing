@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belto Form - Streamlining Form Management</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Streamline form management with Belto Form. Perfect for businesses, healthcare professionals, and anyone needing efficient form handling." />
+    <meta name="keywords" content="form management, AI-powered forms, Belto Form, custom AI solutions" />
+    <meta name="author" content="Belto World" />
+    <link rel="canonical" href="https://www.belto.world/form.html" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Belto Form - Streamlining Form Management" />
+    <meta property="og:description" content="Streamline form management with Belto Form. Perfect for businesses, healthcare professionals, and anyone needing efficient form handling." />
+    <meta property="og:image" content="https://www.belto.world/assets/img/Container.png" />
+    <meta property="og:url" content="https://www.belto.world/form.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Belto" />
+
+    <!-- Favicon links -->
+    <link rel="apple-touch-icon" sizes="57x57" href="https://belto.site/static_resources/landing_page_images_v1/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://belto.site/static_resources/landing_page_images_v1/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://belto.site/static_resources/landing_page_images_v1/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://belto.site/static_resources/landing_page_images_v1/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://belto.site/static_resources/landing_page_images_v1/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://belto.site/static_resources/landing_page_images_v1/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://belto.site/static_resources/landing_page_images_v1/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://belto.site/static_resources/landing_page_images_v1/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://belto.site/static_resources/landing_page_images_v1/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://belto.site/static_resources/landing_page_images_v1/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://belto.site/static_resources/landing_page_images_v1/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://belto.site/static_resources/landing_page_images_v1/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://belto.site/static_resources/landing_page_images_v1/favicons/favicon-16x16.png">
+    <link rel="manifest" href="https://belto.site/static_resources/landing_page_images_v1/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileImage" content="https://belto.site/static_resources/landing_page_images_v1/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#000000">
+    <link rel="browserconfig" href="https://belto.site/static_resources/landing_page_images_v1/favicons/browserconfig.xml">
+
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@BeltoWorld" />
+    <meta name="twitter:creator" content="@BeltoWorld" />
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="robots" content="index, follow" />
+    <meta name="rating" content="general" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="distribution" content="global" />
+
+    <!-- Structured Data for Logo and Company Information -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Belto World",
+        "url": "https://www.belto.world",
+        "logo": "https://www.belto.world/assets/img/Container.png",
+        "sameAs": [
+            "https://www.facebook.com/belto.world",
+            "https://www.twitter.com/belto.world",
+            "https://www.linkedin.com/company/belto.world",
+            "https://www.instagram.com/belto.world",
+            "https://www.instagram.com/belto.news/",
+            "https://www.tiktok.com/@belto.news?lang=en"
+        ]
+    }
+    </script>
+
+    <!-- External Resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link rel="stylesheet" href="https://belto.site/static_resources/landing_page_css_v1/style.css">
+
+    <!-- AOS Library for Animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- Custom CSS for creative elements -->
+    <style>
+        .rounded-box {
+            border-radius: 15px;
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+
+        .creative-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .creative-layout img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+
+        .creative-content {
+            background-color: #000;
+            color: #ffd700;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .creative-content h3 {
+            margin-top: 0;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .feature-list li {
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .feature-list li::before {
+            content: '\f00c'; /* Font Awesome check icon */
+            font-family: 'FontAwesome';
+            color: #ffd700;
+            margin-right: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .creative-layout {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .parallax {
+            background: url('./assets/img/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .parallax h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .tab-content {
+            padding: 20px;
+            border-radius: 15px;
+            background-color: #000;
+            color: #ffd700;
+        }
+
+        .nav-tabs .nav-link.active {
+            background-color: #ffd700;
+            color: #000;
+        }
+
+        .accordion-button {
+            background-color: #000;
+            color: #ffd700;
+            border: 1px solid #ffd700;
+        }
+
+        .accordion-button:not(.collapsed) {
+            background-color: #ffd700;
+            color: #000;
+        }
+
+        .centered-image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto; /* Adjust as needed */
+            background-color: #000;
+            padding: 20px 0;
+        }
+
+        .centered-image {
+            border: 1px solid #ffd700;
+            border-radius: 15px;
+            max-width: 50%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- banner starts -->
+    <section id="banner" data-aos="fade-down">
+        <div class="container text-center">
+            <h1>Back to our Origins: <br />Belto Form</h1>
+            <p>Say goodbye to endless form management tasks and hello to efficiency. <br> Join the future with <span class="text_yellow">B</span>elto Form.</p>
+            <a href="/company/waitlist" class="btn_free_trial">
+                Join our Waitlist
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                </svg>
+            </a>
+        </div>
+    </section>
+    <!-- banner ends -->
+
+    <!-- centered image section starts -->
+    <div class="centered-image-container" data-aos="fade-up">
+        <img src="https://belto.site/static_resources/landing_page_images_v1/Snippet2.png" alt="Belto Form Snippet" class="centered-image">
+    </div>
+    <!-- centered image section ends -->
+
+    <!-- belto form details starts -->
+    <section id="form" data-aos="fade-up">
+        <div class="container">
+            <div class="creative-layout">
+                <div class="creative-content">
+                    <h2><span class="text_yellow">B</span>ELTO - Form</h2>
+                    <p>Streamline form management with <span class="text_yellow">Belto</span> Form. Say goodbye to endless form tasks and hello to efficiency. Perfect for businesses, healthcare professionals, and anyone needing efficient form handling.</p>
+                    <ul class="feature-list">
+                        <li>AI-powered form creation</li>
+                        <li>Automates repetitive tasks</li>
+                        <li>Enhances productivity</li>
+                        <li>Secure and reliable</li>
+                        <li>Customizable solutions</li>
+                    </ul>
+                </div>
+                <div class="rounded-box">
+                    <div class="video_container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
+                        <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" src="https://www.youtube.com/embed/iemq7FHO6r4?si=vmOOpog8HrsSinLp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- belto form details ends -->
+
+    <!-- parallax section starts -->
+    <section class="parallax" data-aos="fade-up">
+        <h2>Join the Revolution with Belto Form</h2>
+    </section>
+    <!-- parallax section ends -->
+
+    <!-- video section starts -->
+    <section id="video" data-aos="fade-up">
+        <div class="container">
+            <div class="video_container"
+                style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
+                <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+                    src="https://www.youtube.com/embed/U5ZOyia8EDc?si=86csS0cu-gIcKHM8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- video section ends -->
+
+    <!-- footer starts -->
+    <footer style="background-color: #000; color: #fff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-2">
+                    <a href="#">
+                        <div class="brand_r">
+                            <img class="img-fluid" src="https://belto.site/static_resources/landing_page_images_v1/BELTO LOGO FINAL.png" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-2">
+                    <h5>Products</h5>
+                    <a href="/products/doc">Belto Doc</a>
+                    <a href="/product/form">Belto Form</a>
+                    <a href="/product/esg">Belto ESG</a>
+                    <a href="/company/comingsoon">Belto CRM</a>
+                    <a href="/company/comingsoon">Belto ERP</a>
+                    <a href="/company/comingsoon">Belto BCS</a>
+                </div>
+                <div class="col-6 col-md-2">
+                    <h5>Pricing</h5>
+                    <a href="/company/comingsoon">Enterprise</a>
+                    <a href="/company/comingsoon">For Everyone</a>
+                    <a href="/products/request">Request Demo</a>
+                </div>
+                <div class="col-6 col-md-2">
+                    <h5>Company</h5>
+                    <a href="/company/aboutus">About Us</a>
+                    <a href="/company/comingsoon">Careers</a>
+                </div>
+                <div class="col-6 col-md-2">
+                    <h5>Feedbacks</h5>
+                    <a href="/company/comingsoon">Partnerships</a>
+                    <a href="/company/comingsoon">Sales</a>
+                </div>
+                <div class="col-6 col-md-2">
+                    <h5>Miscellaneous</h5>
+                    <a href="/company/comingsoon">Ai Consulting</a>
+                    <a href="/company/comingsoon">Computer Vision</a>
+                    <a href="/company/comingsoon">LMs</a>
+                    <a href="/company/comingsoon">Join our Team</a>
+                    <a href="/miscellaneous/terms">Terms, Services & Privacy</a>
+                    <a href="/miscellaneous/contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer_btm">
+                <div class="row">
+                    <div class="col-md-7 col-12">
+                        <p><span class="text_yellow">Belto</span> Inc. © 2024.<br>All Rights Reserved</p>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="socials">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"></path>
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com/belto.news/">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"></path>
+                                </svg>
+                            </a>
+                            <a href="https://www.tiktok.com/@belto.news?lang=en">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                                    <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"></path>
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"></path>
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+                                    <path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+    <!-- scroll to top -->
+    <a href="#" class="to_top"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js" integrity="sha512-KgffulL3mxrOsDicgQWA11O6q6oKeWcV00VxgfJw4TcM8XRQT8Df9EsrYxDf7tpVpfl3qcYD96BpyPvA4d1FDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-QOtDLE6q7ftR7hnJDCY2HJqGZbQyO2+qmd6nB2KlARxxVLD+lgOxC7sdo27La0J1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Hide Preloader
+            $('#preloader').fadeOut('slow', function () {
+                $(this).remove();
+            });
+
+            // Slick Carousel for Review Section
+            $('.review').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                responsive: [
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    }
+                ]
+            });
+
+            // Counter Animation
+            $('.count').each(function () {
+                var $this = $(this),
+                    countTo = $this.attr('data-target');
+                $({ countNum: $this.text() }).animate({
+                    countNum: countTo
+                },
+                    {
+                        duration: 2000,
+                        easing: 'swing',
+                        step: function () {
+                            $this.text(Math.floor(this.countNum));
+                        },
+                        complete: function () {
+                            $this.text(this.countNum);
+                        }
+                    });
+            });
+
+            // Initialize AOS
+            AOS.init();
+        });
+    </script>
+</body>
+
+</html>
